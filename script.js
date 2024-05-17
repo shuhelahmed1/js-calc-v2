@@ -11,7 +11,7 @@ function calculate(){
     document.getElementById('display').value = result;
     }
     catch{
-        document.getElementById('display').value = 'Please Provide Correct Expression';
+        document.getElementById('display').value = 'Wrong Expression';
     }
     
 }
