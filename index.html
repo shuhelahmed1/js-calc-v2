@@ -4,25 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <input type="text" id="display" disabled>
-    <input value="1" type="button" onclick="addToDisplay('1')">
-    <input value="2" type="button" onclick="addToDisplay('2')">
-    <input value="3" type="button" onclick="addToDisplay('3')">
-    <input value="4" type="button" onclick="addToDisplay('4')">
-    <input value="5" type="button" onclick="addToDisplay('5')">
-    <input value="6" type="button" onclick="addToDisplay('6')">
-    <input value="7" type="button" onclick="addToDisplay('7')">
-    <input value="8" type="button" onclick="addToDisplay('8')">
-    <input value="9" type="button" onclick="addToDisplay('9')">
-    <input value="." type="button" onclick="addToDisplay('.')">
-    <input value="+" type="button" onclick="addToDisplay('+')">
-    <input value="-" type="button" onclick="addToDisplay('-')">
-    <input value="*" type="button" onclick="addToDisplay('*')">
-    <input value="/" type="button" onclick="addToDisplay('/')">
-    <input value="C" type="button" onclick="clearDisplay()">
-    <input value="=" type="button" onclick="calculate()">
+    <div class="calculator">
+        <input type="text" id="display" disabled>
+        <div class="buttons">
+            <input value="1" type="button" onclick="addToDisplay('1')">
+            <input value="2" type="button" onclick="addToDisplay('2')">
+            <input value="3" type="button" onclick="addToDisplay('3')">
+            <input value="4" type="button" onclick="addToDisplay('4')">
+            <input value="5" type="button" onclick="addToDisplay('5')">
+            <input value="6" type="button" onclick="addToDisplay('6')">
+            <input value="7" type="button" onclick="addToDisplay('7')">
+            <input value="8" type="button" onclick="addToDisplay('8')">
+            <input value="9" type="button" onclick="addToDisplay('9')">
+            <input value="0" type="button" onclick="addToDisplay('0')">
+            <input value="." type="button" onclick="addToDisplay('.')">
+            <input value="+" type="button" onclick="addToDisplay('+')">
+            <input value="-" type="button" onclick="addToDisplay('-')">
+            <input value="*" type="button" onclick="addToDisplay('*')">
+            <input value="/" type="button" onclick="addToDisplay('/')">
+            <input value="C" type="button" onclick="clearDisplay()">
+            <input value="=" type="button" onclick="calculate()">
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
